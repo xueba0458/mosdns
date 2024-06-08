@@ -1,9 +1,5 @@
 name: Release mosdns
-
-on:
-  push:
-    tags:
-      - 'v*'
+on: workflow_dispatch
 
 jobs:
 
